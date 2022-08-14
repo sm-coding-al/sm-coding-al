@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+<div class="container">
+
+<h1>using fontawesome cheat sheet in css </h1>
+<style>
+
+select{
+	appearance:none;margin-right: -18px; line-height: 23px; width: 100%; background:transparent; padding:5px}
+.cu_sel_fnt_aws::after {
+/*  font-family: 'FontAwesome 5';
+  content: "\f107";*/
+  
+   font-family: "Font Awesome 5 Brands"; 
+	font-weight: 400;
+	content: "\f099";
+	
+	  font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+	content: "\f107";
+  
+     position: absolute;
+    
+    z-index: -1;
+}
+</style>
+
+<span class=" cu_sel_fnt_aws" >  <select>
+
+ <option>item12  cu_sel_fnt_aws using fontawesome cheat sheet in css</option>
+    <option>item2</option>
+    <option>item3</option>
+    <option>item4</option>
+    <option>item5</option>
+    <option>item6</option>
+
+</select>
+
+</span>
+</div>
+
+<br />
+<br />
+
+<div class="container">  
+<style>
+#mydiv:before {
+    content: url("data:image/svg+xml; utf8, <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>");
+    display:block;
+    width:22px;
+    height:10px;
+    margin:10px 5px 0 10px;
+}
+</style>
+
+<div id="mydiv">Content for  id "mydiv" Goes Here</div>
+</div>
+<br />
+<br />
+<div class="container">
+<style>
+
+.div1:after, .div2:after {
+  content: '';
+  display: block;
+  height: 80px;
+  width: 80px;
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20height%3D%2280%22%20width%3D%22160%22%3E%0D%0A%20%20%3Ccircle%20cx%3D%2240%22%20cy%3D%2240%22%20r%3D%2238%22%20stroke%3D%22black%22%20stroke-width%3D%221%22%20fill%3D%22red%22%20%2F%3E%0D%0A%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%2240%22%20r%3D%2238%22%20stroke%3D%22black%22%20stroke-width%3D%221%22%20fill%3D%22blue%22%20%2F%3E%0D%0A%3C%2Fsvg%3E);
+}
+.div2:after {
+  background-position: -80px 0;
+}
+
+</style>
+
+
+
+<div class="div1"></div>
+<div class="div2"></div>
+
+</div>
+
+<br />
+<br />
+<div class="container">
+<style>
+
+h1::before{
+
+  /* svg-inline--fa */
+  display:inline-block;
+  font-size:inherit;
+  height:1em;
+  overflow:visible;
+  vertical-align:-.125em;
+  
+  /* fa-w-14 */
+  width:.875em;
+  
+  /* Icon */
+  /*
+  content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23f00' d='M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zM264 408c0 22.1-17.9 40-40 40s-40-17.9-40-40v-48c0-22.1 17.9-40 40-40s40 17.9 40 40v48z'%3E%3C/path%3E%3C/svg%3E");
+ */ 
+ 
+ 
+  content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23f00' d='M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zM264 408c0 22.1-17.9 40-40 40s-40-17.9-40-40v-48c0-22.1 17.9-40 40-40s40 17.9 40 40v48z'%3E%3C/path%3E%3C/svg%3E");
+ 
+ 
+  /* Margin */
+  margin-right:.75rem;
+}
+
+</style>
+
+
+
+<h1>Lorem Ipsum</h1>
+</div>
+</body>
+</html>
